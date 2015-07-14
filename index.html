@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Tern : A JavaScript code analyzer for deep, cross-editor language support">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Tern</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/thunguyen99/tern">View on GitHub</a>
+
+          <h1 id="project_title">Tern</h1>
+          <h2 id="project_tagline">A JavaScript code analyzer for deep, cross-editor language support</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/thunguyen99/tern/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/thunguyen99/tern/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="tern-build-status-phiên-bản-npm-tình-trạng-kinh-phí-duy-trì-hạnh-phúc-Đây-là-tern-1-tern-là-một-độc-lập-biên-tập-viên-độc-lập-phân-tích-javascript-có-thể-được-sử-dụng-để-cải-thiện-tích-hợp-javascript-của-biên-tập-viên-hiện-có-nhờ-một-nhóm-hào-phóng-nhà-tài-trợ-đám-đông-2-tern-là-phần-mềm-mã-nguồn-mở-theo-một-giấy-phép-mit-hiện-tại-có-plugin-có-sẵn-cho-emacs-emacs-vim-vim-text-sublime-st-eclipse-và-java-api-chung--ec-light-table-lt-và-gedit-gedit-và-được-xây-dựng-trong-hỗ-trợ-trong-chân-đế-dấu-ngoặc-và-cạnh-code-edge_code-Đối-với-tài-liệu-hướng-dẫn-thêm-xem-các-trang-dự-án-1-và-nhãn-3-1-httpternjsnet-2-httpwwwindiegogocomprojectstern-intelligent-javascript-editing-3-httpternjsnetdocmanual-html-emacs-httpternjsnetdocmanualhtmlemacs-ec-httpsgithubcomangelozerrternjava-vim-httpsgithubcommarijnh--tern_for_vim-st-httpsgithubcommarijnhtern_for_sublime-lt-httpsgithubcommortalapemanlt-ternjs-gedit-httpsgithubcomswatinemtern_for_gedit--ngoặc-httpbracketsio-edge_code-httphtmladobecomedgecode-cmode-httpsgithubcomproofit404company-tern" class="anchor" href="#tern-build-status-phi%C3%AAn-b%E1%BA%A3n-npm-t%C3%ACnh-tr%E1%BA%A1ng-kinh-ph%C3%AD-duy-tr%C3%AC-h%E1%BA%A1nh-ph%C3%BAc-%C4%90%C3%A2y-l%C3%A0-tern-1-tern-l%C3%A0-m%E1%BB%99t-%C4%91%E1%BB%99c-l%E1%BA%ADp-bi%C3%AAn-t%E1%BA%ADp-vi%C3%AAn-%C4%91%E1%BB%99c-l%E1%BA%ADp-ph%C3%A2n-t%C3%ADch-javascript-c%C3%B3-th%E1%BB%83-%C4%91%C6%B0%E1%BB%A3c-s%E1%BB%AD-d%E1%BB%A5ng-%C4%91%E1%BB%83-c%E1%BA%A3i-thi%E1%BB%87n-t%C3%ADch-h%E1%BB%A3p-javascript-c%E1%BB%A7a-bi%C3%AAn-t%E1%BA%ADp-vi%C3%AAn-hi%E1%BB%87n-c%C3%B3-nh%E1%BB%9D-m%E1%BB%99t-nh%C3%B3m-h%C3%A0o-ph%C3%B3ng-nh%C3%A0-t%C3%A0i-tr%E1%BB%A3-%C4%91%C3%A1m-%C4%91%C3%B4ng-2-tern-l%C3%A0-ph%E1%BA%A7n-m%E1%BB%81m-m%C3%A3-ngu%E1%BB%93n-m%E1%BB%9F-theo-m%E1%BB%99t-gi%E1%BA%A5y-ph%C3%A9p-mit-hi%E1%BB%87n-t%E1%BA%A1i-c%C3%B3-plugin-c%C3%B3-s%E1%BA%B5n-cho-emacs-emacs-vim-vim-text-sublime-st-eclipse-v%C3%A0-java-api-chung--ec-light-table-lt-v%C3%A0-gedit-gedit-v%C3%A0-%C4%91%C6%B0%E1%BB%A3c-x%C3%A2y-d%E1%BB%B1ng-trong-h%E1%BB%97-tr%E1%BB%A3-trong-ch%C3%A2n-%C4%91%E1%BA%BF-d%E1%BA%A5u-ngo%E1%BA%B7c-v%C3%A0-c%E1%BA%A1nh-code-edge_code-%C4%90%E1%BB%91i-v%E1%BB%9Bi-t%C3%A0i-li%E1%BB%87u-h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-th%C3%AAm-xem-c%C3%A1c-trang-d%E1%BB%B1-%C3%A1n-1-v%C3%A0-nh%C3%A3n-3-1-httpternjsnet-2-httpwwwindiegogocomprojectstern-intelligent-javascript-editing-3-httpternjsnetdocmanual-html-emacs-httpternjsnetdocmanualhtmlemacs-ec-httpsgithubcomangelozerrternjava-vim-httpsgithubcommarijnh--tern_for_vim-st-httpsgithubcommarijnhtern_for_sublime-lt-httpsgithubcommortalapemanlt-ternjs-gedit-httpsgithubcomswatinemtern_for_gedit--ngo%E1%BA%B7c-httpbracketsio-edge_code-httphtmladobecomedgecode-cmode-httpsgithubcomproofit404company-tern" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tern <a href="http://travis-ci.org/marijnh/tern"></a><a href="https://secure.travis-ci.org/marijnh/tern.png">Build Status</a> <a href="https://www.npmjs.org/package/tern"></a><a href="https://img.shields.io/npm/v/tern.svg">phiên bản NPM</a> <a href="https://marijnhaverbeke.nl/fund/">tình trạng kinh phí: </a><a href="https:%20//%20marijnhaverbeke.%20nl%20/%20qu%E1%BB%B9%20/%20status_s.png?%20l%E1%BA%A1i">duy trì hạnh phúc</a> Đây là [Tern] [1]. Tern là một độc lập, biên tập viên độc lập phân tích JavaScript có thể được sử dụng để cải thiện tích hợp JavaScript của biên tập viên hiện có. Nhờ một nhóm hào phóng [nhà tài trợ đám đông] [2], Tern là phần mềm mã nguồn mở, theo một giấy phép MIT. Hiện tại có plugin có sẵn cho [Emacs] <a href="v%C3%A0%20Emacs%20%5Bc%C3%B4ng%20ty-mode%5D%20%5Bcmode%5D">emacs</a>, [Vim] [vim], [Text Sublime] [st], [Eclipse (và Java API chung)] [ ec], [Light Table] [lt], và [gedit] [gedit], và được xây dựng trong hỗ trợ trong [Chân đế] [dấu ngoặc] và [Cạnh Code] [edge_code]. Đối với tài liệu hướng dẫn thêm, xem các [trang dự án] [1] và [nhãn] [3]. [1]: <a href="http://ternjs.net">http://ternjs.net</a> [2]: <a href="http://www.indiegogo.com/projects/tern-intelligent-javascript-editing">http://www.indiegogo.com/projects/tern-intelligent-javascript-editing</a> [3]: <a href="http://ternjs.net/doc/manual">http://ternjs.net/doc/manual</a>. html [emacs]: <a href="http://ternjs.net/doc/manual.html#emacs">http://ternjs.net/doc/manual.html#emacs</a> [ec]: <a href="https://github.com/angelozerr/tern.java">https://github.com/angelozerr/tern.java</a> [vim]: <a href="https://github.com/marijnh">https://github.com/marijnh</a> / tern_for_vim [st]: <a href="https://github.com/marijnh/tern_for_sublime">https://github.com/marijnh/tern_for_sublime</a> [lt]: <a href="https://github.com/mortalapeman/LT-TernJS">https://github.com/mortalapeman/LT-TernJS</a> [gedit]: <a href="https://github.com/Swatinem/tern_for_gedit">https://github.com/Swatinem/tern_for_gedit</a> [ ngoặc]: <a href="http://brackets.io">http://brackets.io</a> [edge_code]: <a href="http://html.adobe.com/edge/code">http://html.adobe.com/edge/code</a> [cmode]: <a href="https://github.com/proofit404/company-tern">https://github.com/proofit404/company-tern</a>
+</h1>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Tern maintained by <a href="https://github.com/thunguyen99">thunguyen99</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-58584878-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
